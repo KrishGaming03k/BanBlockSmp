@@ -1,0 +1,32 @@
+name: BanBlockSmp
+main: com.itzgreed.banblocksmp.BanBlockSmp
+version: 1.0
+api-version: 1.20
+description: >
+  §6BanBlockSmp §7- A stylish and strategic SMP twist. Step carefully!
+  §eCreated by §bItz_Greed
+commands:
+  assignbanblock:
+    description: Assigns a random banned block to a player.
+    usage: /assignbanblock <player>
+    permission: banblocksmp.admin
+  banblock:
+    description: Shows a player's banned block.
+    usage: /banblock [player]
+  clearbanblock:
+    description: Clears a player's banned block.
+    usage: /clearbanblock <player>
+    permission: banblocksmp.admin
+  unban:
+    description: Unbans a banned player and assigns a new banned block.
+    usage: /unban <player>
+    permission: banblocksmp.admin
+  sacrifice:
+    description: Sacrifice yourself to unban another player.
+    usage: /sacrifice <sacrificer> <bannedPlayer>
+  accept:
+    description: Accept a sacrifice request.
+    usage: /accept
+  deny:
+    description: Deny a sacrifice request.
+    usage: /deny
